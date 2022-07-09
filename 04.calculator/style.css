@@ -1,0 +1,40 @@
+.btn {
+  width: 48px;
+  height: 48px;
+  background: peru;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn:active {
+  background-color: tan;
+}
+.btn-lg {
+  width: 100px;
+  height: 48px;
+}
+.row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.inp {
+  width: 204px;
+  height: 48px;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: teal;
+  font-size: 14px;
+  padding: 0 14px;
+}
+.inp:disabled {
+  background-color: #fff;
+  border: 1px solid tomato;
+}
