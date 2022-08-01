@@ -1,0 +1,63 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-end;
+}
+.form-inp {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.form-inp label {
+  color: #48a3ff;
+  font-size: 12px;
+}
+
+.inp {
+  width: 204px;
+  height: 48px;
+  padding: 0;
+  box-sizing: border-box;
+  color: #48a3ff;
+  border: 1px solid #48a3ff;
+  background-color: #fff;
+
+  font-size: 14px;
+  padding: 0 14px;
+}
+.inp::placeholder {
+  color: #94d0ff;
+}
+.btn {
+  width: 148px;
+  height: 48px;
+  background: #48a3ff;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#res {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 588px;
+  text-align: center;
+  margin-top: 24px;
+}
+.res-text {
+  color: #48a3ff;
+}
+.res-text > div:nth-child(1) {
+  font-size: 32px;
+}
+.res-text > div:nth-child(2) {
+  font-size: 24px;
+}
