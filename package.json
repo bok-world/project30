@@ -1,0 +1,10 @@
+{
+  "name": "project30",
+  "version": "1.0.0",
+  "description": "practice react",
+  "main": "index.js",
+  "repository": "https://github.com/bok-world/project30.git",
+  "author": "bk <rnjsqhrud10@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
